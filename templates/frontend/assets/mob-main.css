@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    direction: rtl;
+    font-family: 'DroidKufi-Regular';
+}
+
+.main-image , .sub-image{
+    height: 200px;
+    overflow: hidden;
+}
+
+.main-image img , .sub-image img{
+    width: 100%;
+}
+
+.sub-image img{
+    border-radius: 5px
+}
+
+.padding{
+    padding: 0 17px;
+}
+
+h1{
+    font-size: 20px;
+    font-size: 14px;
+    color: #3D3D3D;
+}
+
+h5{
+    font-size: 12px;
+    color: #222222;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 15px 0 1px;
+
+}
+
+p{
+    margin-top: 0; 
+    font-size: 12px;
+    color: #525252;
+    letter-spacing: 0;
+}
+
+ul{
+    margin-top: 0; 
+    font-size: 12px;
+    color: #525252;
+    letter-spacing: 0;
+    padding: 0 17px;
+}

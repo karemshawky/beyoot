@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+*,body, h1, h2, h3, h4, h5, h6 { font-family: 'Cairo', sans-serif; }
+@media (min-width: 768px){ .form-horizontal .control-label {padding-top: 8px;font-size: 15px;} }
+.form-control{padding: 3px 12px;} .form-control:focus{border-color: #32c5d2;}
+.dropzone-file-area {border: 2px dashed #32c5d2;min-height: 0;}
+.rws{margin-right: 10px !important;} .form-control-static{font-size:17px;padding-bottom: 0;}
+.icnz{ width:22px; margin-left:10px;} .editz{border: 2px dashed #e7505a;} .addbutton{margin-bottom: 10px;}
+.mt-checkbox>span:after {border-width: 0 2px 2px 0;transform: rotate(45deg);}
+ul.page-breadcrumb a{ text-decoration: none !important; } .img-desc{height: 160px !important;margin-top: 25px !important;}

@@ -1,0 +1,25 @@
+{
+    "name": "beyoot",
+    "description": "Bosnia real state app",
+    "require": {
+        "slim/slim": "^3.9",
+        "joshcam/mysqli-database-class": "dev-master",
+        "slim/php-view": "^2.2",
+        "monolog/monolog": "^1.23",
+        "respect/validation": "^1.1",
+        "egulias/email-validator": "~2.1",
+        "tuupola/slim-basic-auth": "^2.3",
+        "intervention/image": "^2.4",
+        "gumlet/php-image-resize": "1.8.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/middlewares",
+            "src/models"
+        ],
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
